@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de Devs | PM</title>
     <link rel="shotcut icon" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="box">
@@ -15,26 +16,26 @@
                 <br>
                 <div class="inputBox">
                     <input type="text" name="nome" id="nome" class="inputUser" required>
-                    <label for="nome">Nome Completo</label>
+                    <label for="nome" class="labelInput">Nome Completo</label>
                 </div>
                 <br>
                 <div class="inputBox">
                     <input type="text" name="email" id="email" class="inputUser" required>
-                    <label for="email">E-mail</label>
+                    <label for="email" class="labelInput">E-mail</label>
                 </div>
                 <br>
                 <div class="inputBox">
-                    <input type="tel" name="telephone" id="telephone" class="teleUser" required>
-                    <label for="telephone">Telefone</label>
+                    <input type="tel" name="telephone" id="telephone" class="inputUser" required>
+                    <label for="telephone" class="labelInput">Telefone</label>
                 </div>
                 <br>
                 <p>Qual a sua stack?</p>
                 <input type="radio" name="stack" id="frontend" value="frontend" required checked>
-                <label for="frontend">Front-end</label>
+                <label for="frontend">Front-end</label><br>
                 <input type="radio" name="stack" id="backend" value="backend" required>
-                <label for="backend">Back-end</label>
+                <label for="backend">Back-end</label><br>
                 <input type="radio" name="stack" id="fullstack" value="fullstack" required>
-                <label for="fullstack">Fullstack</label>
+                <label for="fullstack">Fullstack</label><br>
                 <input type="radio" name="stack" id="mobile" value="mobile" required>
                 <label for="mobile">Mobile</label>
                 <br><br>
@@ -42,27 +43,26 @@
                      <label>Senioridade</label>
                     <select>
                         <option selected disabled value="">Selecione</option> 
-                        <option>Senior</option>
-                        <option>Pleno</option>
-                        <option>Senior</option>
+                        <option value="">Junior</option>
+                        <option value="">Pleno</option>
+                        <option value="">Senior</option>
                     </select>
                 </div>
                 <br>
                 <div class="inputBox">
                     <label>Selecione as tecnologias que você utiliza:</label><br><br>
                     <input type="checkbox" name="tecnologia1" id="tecnologia1">
-                    <label for="tecnologia1">HTML</label>
+                    <label for="tecnologia1">JavaScript</label>
                     <input type="checkbox" name="tecnologia2" id="tecnologia2">
-                    <label for="tecnologia2">CSS</label>
+                    <label for="tecnologia2">Ruby</label>
                     <input type="checkbox" name="tecnologia3" id="tecnologia3">
-                    <label for="tecnologia3">JavaScript</label>
+                    <label for="tecnologia3">PHP</label>
+                    <br>
                     <input type="checkbox" name="tecnologia4" id="tecnologia4">
-                    <label for="tecnologia4">PHP</label>
+                    <label for="tecnologia4">C#</label>
                     <input type="checkbox" name="tecnologia5" id="tecnologia5">
-                    <label for="tecnologia5">C#</label>
-                    <input type="checkbox" name="tecnologia6" id="tecnologia6">
                     <label for="tecnologia6">Python</label>
-                    <input type="checkbox" name="tecnologia7" id="tecnologia7">
+                    <input type="checkbox" name="tecnologia6" id="tecnologia6">
                     <label for="tecnologia7">Java</label>
                 </div>
                 <br>
