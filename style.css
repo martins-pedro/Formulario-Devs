@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(to right, rgb(48, 167, 48), rgb(19, 63, 19));
@@ -102,4 +103,110 @@ input:checked[type="checkbox"]::before {
 }
 #submit:hover {
     background-image: linear-gradient(to right, rgb(33, 145, 33), rgb(12, 51, 12));
+=======
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(48, 167, 48), rgb(19, 63, 19));
+    color: white;
+}
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 15px;
+}
+fieldset {
+    border: 3px solid #3FBF4C;
+}
+legend {
+    border: 1px solid #3FBF4C;
+    padding: 10px;
+    text-align: center;
+    background-color: #3FBF4C;
+    border-radius: 7px;
+    color: white;
+}
+.inputBox {
+    position: relative;
+    padding-bottom: 5px;
+}
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelInput {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput {
+    top: -20px;
+    font-size: 11px;
+    color: #3FBF4C;
+}
+select {
+    border: none;
+    background: black;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+input[type="radio"] {
+    cursor: pointer;
+}
+input[type="checkbox"] {
+    position: relative;
+    width: 28px;
+    height: 13px;
+    outline: none;
+    -webkit-appearance: none;
+    background-color: #c6c6c6;
+    border-radius: 15px;
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.4) inset;
+}
+input:checked[type="checkbox"] {
+    background: #3FBF4C;
+}
+input[type="checkbox"]::before {
+    content: '';
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    background: white;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.4) inset;
+    transform: scale(1.1);
+    transition: .2s;
+    cursor: pointer;
+}
+input:checked[type="checkbox"]::before {
+    left: 14px;
+}
+#submit {
+    background-image: linear-gradient(to right, rgb(48, 167, 48), rgb(19, 63, 19));
+    width: 100%;
+    border: none;
+    padding: 20px;
+    color: white;
+    font-size: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#submit:hover {
+    background-image: linear-gradient(to right, rgb(33, 145, 33), rgb(12, 51, 12));
+>>>>>>> 07357779ebbceb67339e8706c1c8f76e6b4994d9
 }
